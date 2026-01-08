@@ -6,6 +6,7 @@
  */
 
 const { streamRequest } = require('./helpers/http-client.cjs');
+const { TEST_MODELS } = require('./helpers/test-models.cjs');
 
 async function testEmptyResponseRetry() {
     console.log('\n============================================================');
@@ -37,7 +38,7 @@ async function testEmptyResponseRetry() {
         console.log('----------------------------------------');
 
         const response = await streamRequest({
-            model: 'gemini-3-flash',
+            model: TEST_MODELS.gemini,
             messages: [{ role: 'user', content: 'Say hi in 3 words' }],
             max_tokens: 20,
             stream: true
