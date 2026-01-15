@@ -347,6 +347,8 @@ Refer to `config.example.json` for a complete list of fields and documentation.
 
 For macOS users who prefer a native experience, there's a companion menu bar app that provides quick access to server controls without touching the terminal. Get it from: [antigravity-claude-proxy-bar](https://github.com/IrvanFza/antigravity-claude-proxy-bar)
 
+> **Note:** This is a GUI wrapper only. You still need to install and setup the proxy server first using one of the [installation methods](#installation) above.
+
 ![AntiGravity Claude Proxy Bar](https://github.com/IrvanFza/antigravity-claude-proxy-bar/blob/main/images/application.png?raw=true)
 
 ### Key Features
